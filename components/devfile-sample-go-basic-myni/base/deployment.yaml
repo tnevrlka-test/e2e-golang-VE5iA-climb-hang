@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-myni
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-tyrt-tenant/e2e-golang/devfile-sample-go-basic-myni@sha256:eba1611e3f138988e5f6b189df7e03c6fccaf50d1f94d9a65e6709a29102b59d
         name: my-go
         ports:
         - containerPort: 8081
